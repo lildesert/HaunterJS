@@ -3,7 +3,10 @@
 
 var h = {};
 
-h.config = require('./decoConfig');
+//Your config file
+h.config = require('./configFile');
+
+//A dataset for my project
 h.jeu = require('./jeu');
 
 h.webdriver = require('selenium-webdriver');
